@@ -1,0 +1,27 @@
+{
+  "require": {
+    "illuminate/database": "^5.2"
+  },
+
+  "name": "ingoskr19/p2p",
+  "description" : "Consumer Soap Web Service",
+  "authors": [
+    {
+      "name": "Oscar Vergara",
+      "email": "ingoskr.19@gmail.com"
+    }
+  ],
+  
+  "autoload": {
+    "psr-4": {
+      "p2p\\":"src/",
+      "p2p\\Model\\":"src/Model/"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  
+  "license": "MIT"
+
+}
