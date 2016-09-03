@@ -10,7 +10,9 @@ use p2p\Model\PSETransactionResponse;
 use p2p\Model\TransactionInformation;
 use p2p\Model\Person;
 date_default_timezone_set('America/Bogota');
-
+date_default_timezone_set('America/Bogota');
+ini_set('max_execution_time', 180);
+ini_set("default_socket_timeout", 180);
 class P2P
 {
 
